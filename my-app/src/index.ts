@@ -20,7 +20,7 @@ const Echo: LineAction = async (context: LineContext) => {
 }
 
 const EventCount: LineAction = async (context: LineContext) => {
-  const count = context.state.count + 1;
+  const count: number = Number(context.state.count) + 1;
   context.setState({
     count,
   });
