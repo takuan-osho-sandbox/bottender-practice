@@ -1,7 +1,7 @@
-import App from '.';
+import app from '.';
 
 describe('index.js', () => {
   it('should be defined', () => {
-    expect(App).toBeDefined();
+    expect(app).toBeDefined();
   });
 });
